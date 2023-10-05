@@ -8,7 +8,7 @@ int main(int var0, char *var1[]) {
     auto var5{std::atoi(var1[2])};
     auto var6{0};
     auto var7{0};
-    auto var8{var1[1]};
+    std::string var8{var1[1]};
     while (true) {
       var6 += var8[var7++];
       if (var7 >= static_cast<int>(var8.size())) {
