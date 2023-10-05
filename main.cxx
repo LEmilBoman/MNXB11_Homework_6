@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
-int main(int var0, char *var1[]) {
-  if (var0 == 3) {
+int main(int numbargs, char *var1[]) {
+  bool isIt3Args {numbargs==3} ;
+  if (isIt3Args) {
     std::string var2{var1[0]};
     auto var3{*(var1[1])};
     auto var4{var2.size()};
